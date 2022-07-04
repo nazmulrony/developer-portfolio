@@ -131,7 +131,7 @@ body {
     height: 5rem;
     width: 5rem;
     position: absolute;
-    top: 26.5rem;
+    top: 25.5rem;
     right: 12rem;
     z-index: 10;
 }
@@ -140,7 +140,7 @@ body {
     height: 3.5rem;
     width: 3.5rem;
     position: absolute;
-    top: 30rem;
+    top: 29rem;
     right: 10rem;
 }
 
@@ -161,4 +161,14 @@ body {
     border-left: 5px solid #55c57a;
     padding: 0 1rem;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.4);
+}
+
+footer {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.95),
+        rgba(31, 30, 30, 0.95)
+    );
+    text-align: center;
+    color: white;
 }
